@@ -1,0 +1,34 @@
+﻿<div class="row vert-center">
+    <div class="col-md-3">
+        <h2>Skapa</h2>
+    </div>
+    <div class="col-md-9">
+        <div class="alert alert-{{msg.type}} alert-dismissible" ng-show="msg">
+            <strong>{{msg.strong}}</strong> {{msg.text}}
+            <button type="button" class="close" aria-label="Close" ng-click="msg = null">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+</div>
+
+<form class="form-horizontal" ng-submit="create()">
+    <div class="form-group">
+        <label class="control-label col-md-2" for="name">Namn:</label>
+        <div class="col-md-7">
+            <input class="form-control" type="text" name="name" ng-model="name" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="control-label col-md-2" for="description">Beskrivning:</label>
+        <div class="col-md-7">
+            <textarea class="form-control" rows="5" name="description" ng-model="description"></textarea>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-7">
+            <button class="btn btn-primary" type="submit">Skapa</button>
+        </div>
+    </div>
+</form>

@@ -1,0 +1,468 @@
+PLAIN
+K 12
+ActionMap.cs
+V 21
+file c-80.0.r80/20162
+K 13
+AddressMap.cs
+V 21
+file f-23.0.r33/54723
+K 14
+AnalysisMap.cs
+V 22
+file h-23.0.r160/13012
+K 17
+AppointmentMap.cs
+V 21
+file i-23.0.r76/19043
+K 21
+AppointmentRuleMap.cs
+V 21
+file f-71.0.r76/19286
+K 18
+ConsultationMap.cs
+V 22
+file j-23.0.r160/13255
+K 27
+Consultations_PaymentMap.cs
+V 22
+file 6-127.0.r127/4188
+K 13
+DiseaseMap.cs
+V 21
+file 9-87.0.r154/7542
+K 12
+DoctorMap.cs
+V 21
+file k-23.0.r27/77276
+K 16
+DoctorRuleMap.cs
+V 23
+file 6-131.0.r131/14264
+K 21
+HistAppointmentMap.cs
+V 21
+file 6-78.0.r87/10774
+K 11
+ICD10Map.cs
+V 21
+file c-87.0.r87/11020
+K 21
+InheritedDiseasMap.cs
+V 21
+file d-87.0.r87/11234
+K 13
+InsurerMap.cs
+V 21
+file m-23.0.r64/12625
+K 20
+MedicalHistoryMap.cs
+V 21
+file e-87.0.r116/3135
+K 14
+MedicineMap.cs
+V 22
+file n-23.0.r160/13503
+K 10
+MenuMap.cs
+V 21
+file e-80.0.r80/20380
+K 13
+PatientMap.cs
+V 21
+file o-23.0.r61/11391
+K 11
+PhoneMap.cs
+V 21
+file p-23.0.r23/70150
+K 18
+PrescriptionMap.cs
+V 21
+file q-23.0.r23/70366
+K 29
+Prescriptions_MedicinesMap.cs
+V 23
+file 5-160.0.r160/13745
+K 15
+ProcedureMap.cs
+V 21
+file r-23.0.r63/10800
+K 11
+StudyMap.cs
+V 21
+file s-23.0.r63/11042
+K 10
+UserMap.cs
+V 19
+file t-23.0.r57/244
+K 16
+sysdiagramMap.cs
+V 21
+file u-23.0.r23/71238
+K 25
+webpages_MembershipMap.cs
+V 21
+file 9-27.0.r27/77992
+K 30
+webpages_OAuthMembershipMap.cs
+V 21
+file b-27.0.r27/78222
+K 20
+webpages_RolesMap.cs
+V 21
+file c-27.0.r27/78456
+END
+ENDREP
+id: e-23.0.r161/1418
+type: dir
+pred: e-23.0.r160/15449
+count: 25
+text: 161 0 1405 0 f6de39a250d5b158e34824e3106b7da9
+cpath: /trunk/SIGEC/SIGEC/Models/Mapping
+copyroot: 0 /
+
+PLAIN
+K 16
+AccountModels.cs
+V 21
+file 54-2.0.r23/66495
+K 9
+Action.cs
+V 21
+file a-80.0.r80/19956
+K 10
+Address.cs
+V 21
+file 6-23.0.r33/54496
+K 11
+Analysis.cs
+V 22
+file 8-23.0.r160/12545
+K 14
+Appointment.cs
+V 20
+file 9-23.0.r87/8813
+K 18
+AppointmentRule.cs
+V 21
+file d-71.0.r76/18582
+K 15
+Consultation.cs
+V 22
+file a-23.0.r160/12775
+K 24
+Consultations_Payment.cs
+V 22
+file 4-127.0.r127/3966
+K 10
+Disease.cs
+V 21
+file 4-87.0.r143/1275
+K 9
+Doctor.cs
+V 22
+file b-23.0.r131/13821
+K 13
+DoctorRule.cs
+V 23
+file 4-131.0.r131/14052
+K 10
+Finding.cs
+V 20
+file 6-87.0.r87/9480
+K 18
+HistAppointment.cs
+V 20
+file 4-78.0.r78/7294
+K 8
+ICD10.cs
+V 20
+file 7-87.0.r87/9684
+K 13
+Indication.cs
+V 21
+file c-23.0.r23/67766
+K 18
+InheritedDiseas.cs
+V 20
+file 8-87.0.r87/9887
+K 10
+Insurer.cs
+V 21
+file d-23.0.r64/12396
+K 7
+Mapping
+V 20
+dir e-23.0.r161/1418
+K 17
+MedicalHistory.cs
+V 21
+file f-87.0.r116/4892
+K 11
+Medicine.cs
+V 22
+file v-23.0.r160/15626
+K 7
+Menu.cs
+V 21
+file f-80.0.r80/21856
+K 13
+ModelMetadata
+V 21
+dir d-27.0.r160/16941
+K 10
+Patient.cs
+V 22
+file w-23.0.r160/17124
+K 8
+Phone.cs
+V 21
+file x-23.0.r23/72743
+K 15
+Prescription.cs
+V 22
+file y-23.0.r160/17355
+K 26
+Prescriptions_Medicines.cs
+V 23
+file 7-160.0.r160/17591
+K 12
+Procedure.cs
+V 22
+file z-23.0.r160/17817
+K 15
+SIGECContext.cs
+V 23
+file 10-23.0.r160/18048
+K 8
+Study.cs
+V 23
+file 11-23.0.r160/18288
+K 7
+User.cs
+V 22
+file 12-23.0.r64/14970
+K 10
+ViewModels
+V 21
+dir e-29.0.r159/67347
+K 13
+sysdiagram.cs
+V 22
+file 13-23.0.r23/73987
+K 22
+webpages_Membership.cs
+V 21
+file g-27.0.r27/80880
+K 27
+webpages_OAuthMembership.cs
+V 21
+file h-27.0.r27/81095
+K 17
+webpages_Roles.cs
+V 21
+file i-27.0.r80/22293
+END
+ENDREP
+id: 53-2.0.r161/3238
+type: dir
+pred: 53-2.0.r160/20166
+count: 62
+text: 161 1591 1634 0 149bf61a72a4c03ce95469590c12effb
+cpath: /trunk/SIGEC/SIGEC/Models
+copyroot: 0 /
+
+PLAIN
+K 8
+App_Data
+V 21
+dir 5-2.0.r147/240401
+K 10
+App_Readme
+V 20
+dir x-7.0.r7/4680408
+K 9
+App_Start
+V 19
+dir 7-2.0.r150/1016
+K 11
+Code52.i18n
+V 19
+dir 13-7.0.r90/2286
+K 7
+Content
+V 20
+dir j-2.0.r157/60455
+K 11
+Controllers
+V 21
+dir 3x-2.0.r160/11379
+K 10
+CustomCode
+V 21
+dir 3-20.0.r160/12372
+K 7
+Filters
+V 20
+dir 43-2.0.r105/4354
+K 11
+Global.asax
+V 22
+file 47-2.0.r2/9048755
+K 14
+Global.asax.cs
+V 20
+file 49-2.0.r85/7752
+K 6
+Images
+V 21
+dir 4b-2.0.r157/64225
+K 6
+Models
+V 20
+dir 53-2.0.r161/3238
+K 10
+Properties
+V 21
+dir 57-2.0.r133/30338
+K 9
+Resources
+V 20
+dir 7-5.0.r160/21290
+K 12
+SIGEC.csproj
+V 22
+file 5b-2.0.r160/21460
+K 17
+SIGEC.csproj.user
+V 21
+file 5d-2.0.r24/49169
+K 7
+Scripts
+V 21
+dir 5f-2.0.r133/34469
+K 5
+Views
+V 21
+dir 6d-2.0.r160/23044
+K 16
+Web.Debug.config
+V 22
+file 7j-2.0.r2/9064804
+K 18
+Web.Release.config
+V 22
+file 7l-2.0.r2/9065010
+K 10
+Web.config
+V 22
+file 7n-2.0.r160/23213
+K 3
+bin
+V 21
+dir 7p-2.0.r159/76403
+K 11
+favicon.ico
+V 22
+file ab-2.0.r2/9079899
+K 5
+fonts
+V 20
+dir 3-32.0.r32/70610
+K 2
+js
+V 21
+dir 9-24.0.r159/76861
+K 15
+packages.config
+V 23
+file ay-2.0.r40/1644999
+END
+ENDREP
+id: 3-2.0.r161/4516
+type: dir
+pred: 3-2.0.r160/24551
+count: 153
+text: 161 3406 1097 0 c044a4f2e1d38cfb1d86da9281e7d2b5
+props: 11 988 82 0 dce7fc6828812bc8a9d8637b07b0645e
+cpath: /trunk/SIGEC/SIGEC
+copyroot: 0 /
+
+PLAIN
+K 18
+GlobalizationSIGEC
+V 20
+dir 2-7.0.r7/4679954
+K 5
+SIGEC
+V 19
+dir 3-2.0.r161/4516
+K 11
+SIGEC.Tests
+V 22
+dir 2-43.0.r147/253749
+K 9
+SIGEC.sln
+V 18
+file bw-2.0.r72/53
+K 13
+SIGEC.v11.suo
+V 22
+file by-2.0.r159/78353
+K 8
+packages
+V 22
+dir c0-2.0.r40/1724984
+END
+ENDREP
+id: 1-2.0.r161/5001
+type: dir
+pred: 1-2.0.r160/25039
+count: 159
+text: 161 4728 260 0 8f5cbf1c60715ea8e7150032ff9ded16
+props: 17 0 46 0 ba4c2bfd0a9d568eda21fc204f0471ae
+cpath: /trunk/SIGEC
+copyroot: 0 /
+
+PLAIN
+K 5
+SIGEC
+V 19
+dir 1-2.0.r161/5001
+END
+ENDREP
+id: 3-1.0.r161/5256
+type: dir
+pred: 3-1.0.r160/25297
+count: 160
+text: 161 5204 39 0 e3306963fb4dcc49681d9ec3958e4944
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 15
+dir 2-1.0.r1/66
+K 5
+trunk
+V 19
+dir 3-1.0.r161/5256
+END
+ENDREP
+id: 0.0.r161/5517
+type: dir
+pred: 0.0.r160/25561
+count: 161
+text: 161 5402 102 0 6ae5812ac75910ed046317c5b3dd65e3
+cpath: /
+copyroot: 0 /
+
+l-23.0.r23/69277 delete-file false false /trunk/SIGEC/SIGEC/Models/Mapping/IndicationMap.cs
+
+
+5517 5655

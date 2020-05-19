@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Assignment";
+}
+
+@section scripts {
+    <script src="~/Scripts/jquery.ui.datepicker-sv.min.js"></script>
+    <script src="~/App/Teacher/Assignment/assignmentApp.js"></script>
+}
+
+<div class="row" ng-app="assignment">
+    <div class="col-md-3">
+        <div id="sub-menu">
+            <ul>
+                <li><a href="#/">Lista</a></li>
+                <li><a href="#/Create">Skapa</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="col-md-9">
+        <div ng-view></div>
+    </div>
+</div>
+

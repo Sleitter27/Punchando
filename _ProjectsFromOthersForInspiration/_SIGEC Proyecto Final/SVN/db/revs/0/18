@@ -1,0 +1,100 @@
+id: 4-18.0.r18/0
+type: dir
+count: 0
+cpath: /trunk/SIGEC/SIGEC.Tests/Properties
+copyroot: 0 /
+
+PLAIN
+K 10
+Properties
+V 16
+dir 4-18.0.r18/0
+END
+ENDREP
+id: 3-18.0.r18/149
+type: dir
+count: 0
+text: 18 94 42 0 e1f32d41a1e2c1ed3f69bcd2c1d942c3
+cpath: /trunk/SIGEC/SIGEC.Tests
+copyroot: 0 /
+
+PLAIN
+K 18
+GlobalizationSIGEC
+V 20
+dir 2-7.0.r7/4679954
+K 5
+SIGEC
+V 19
+dir 3-2.0.r16/74689
+K 11
+SIGEC.Tests
+V 18
+dir 3-18.0.r18/149
+K 9
+SIGEC.sln
+V 22
+file bw-2.0.r2/9088924
+K 13
+SIGEC.v11.suo
+V 21
+file by-2.0.r16/83034
+K 8
+packages
+V 21
+dir c0-2.0.r15/381649
+END
+ENDREP
+id: 1-2.0.r18/555
+type: dir
+pred: 1-2.0.r17/59
+count: 16
+text: 18 284 258 0 fce327761b53c36c97ac83613e0d4628
+props: 17 0 46 0 ba4c2bfd0a9d568eda21fc204f0471ae
+cpath: /trunk/SIGEC
+copyroot: 0 /
+
+PLAIN
+K 5
+SIGEC
+V 17
+dir 1-2.0.r18/555
+END
+ENDREP
+id: 3-1.0.r18/799
+type: dir
+pred: 3-1.0.r17/306
+count: 17
+text: 18 749 37 0 3c9428ae9b05fe328225ef6bbb72f352
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 15
+dir 2-1.0.r1/66
+K 5
+trunk
+V 17
+dir 3-1.0.r18/799
+END
+ENDREP
+id: 0.0.r18/1050
+type: dir
+pred: 0.0.r17/559
+count: 18
+text: 18 937 100 0 246f627709a44da4f967ea3066d4849d
+cpath: /
+copyroot: 0 /
+
+_3.0.t17-h replace-dir false false /trunk/SIGEC/SIGEC.Tests
+
+_4.0.t17-h add-dir false false /trunk/SIGEC/SIGEC.Tests/Properties
+
+
+1050 1181

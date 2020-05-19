@@ -1,0 +1,83 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="1111" measuredH="604" mockupW="800" mockupH="600">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="311" y="4" w="800" h="600" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::FieldSet" x="539" y="245" w="345" h="250" measuredW="200" measuredH="170" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>1</backgroundAlpha>
+        <color>16777215</color>
+        <text>Acceder</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="400" y="92" w="-1" h="-1" measuredW="88" measuredH="36" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10027008</color>
+        <size>28</size>
+        <text>SIGEC</text>
+        <textOrientation>right</textOrientation>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="341" y="92" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10027008</color>
+        <icon>ImageIcon%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="400" y="122" w="-1" h="-1" measuredW="212" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Sistema%20de%20Gesti%F3n%20de%20Consultorios</text>
+      </controlProperties>
+    </control>
+    <control controlID="5" controlTypeID="com.balsamiq.mockups::Label" x="663" y="191" w="-1" h="-1" measuredW="97" measuredH="28" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>20</size>
+        <text>Bienvenido</text>
+      </controlProperties>
+    </control>
+    <control controlID="6" controlTypeID="com.balsamiq.mockups::Label" x="609" y="290" w="-1" h="-1" measuredW="48" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Usuario%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Canvas" x="313" y="78" w="798" h="80" measuredW="100" measuredH="70" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15658734</color>
+      </controlProperties>
+    </control>
+    <control controlID="9" controlTypeID="com.balsamiq.mockups::TextInput" x="609" y="317" w="200" h="-1" measuredW="69" measuredH="24" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>username</text>
+      </controlProperties>
+    </control>
+    <control controlID="10" controlTypeID="com.balsamiq.mockups::Label" x="609" y="355" w="-1" h="-1" measuredW="70" measuredH="21" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Contrase%F1a%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="11" controlTypeID="com.balsamiq.mockups::TextInput" x="609" y="382" w="200" h="-1" measuredW="59" measuredH="24" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>********</text>
+      </controlProperties>
+    </control>
+    <control controlID="12" controlTypeID="com.balsamiq.mockups::Link" x="739" y="464" w="-1" h="-1" measuredW="131" measuredH="19" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Recuperar%20contrasena%26bm%3BRecuperar%20contrasena.bmml%26bm%3BRecuperar%20contrasena.bmml%26bm%3BRecuperar%20contrasena.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22428%2C460%2C559%2C479%22%20href%3D%22Recuperar%2520contrasena.bmml%22%20alt%3D%22Recuperar%20contrasena%22%20id%3D%2212%22/%3E</map>
+        <text>Recuperar%20contrase%F1a</text>
+      </controlProperties>
+    </control>
+    <control controlID="13" controlTypeID="com.balsamiq.mockups::Button" x="609" y="420" w="-1" h="-1" measuredW="58" measuredH="24" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15374745</color>
+        <href>Inicio%26bm%3BInicio.bmml%26bm%3BInicio.bmml%26bm%3BInicio.bmml</href>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22298%2C416%2C356%2C440%22%20href%3D%22Inicio.bmml%22%20alt%3D%22Inicio%22%20id%3D%2213%22/%3E</map>
+        <text>Entrar</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

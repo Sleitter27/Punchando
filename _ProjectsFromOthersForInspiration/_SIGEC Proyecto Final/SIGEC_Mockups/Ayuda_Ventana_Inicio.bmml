@@ -1,0 +1,264 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="1240" measuredH="604" mockupW="1069" mockupH="600">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="311" y="4" w="800" h="600" measuredW="450" measuredH="400" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="400" y="92" w="-1" h="-1" measuredW="88" measuredH="36" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10027008</color>
+        <size>28</size>
+        <text>SIGEC</text>
+        <textOrientation>right</textOrientation>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="341" y="92" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10027008</color>
+        <icon>ImageIcon%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="400" y="122" w="-1" h="-1" measuredW="332" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Sistema%20de%20Gesti%F3n%20de%20Consultorios%20-%20Dr.%20Fredy%20Figueroa</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Canvas" x="313" y="78" w="798" h="80" measuredW="100" measuredH="70" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15658734</color>
+      </controlProperties>
+    </control>
+    <control controlID="16" controlTypeID="com.balsamiq.mockups::Label" x="329" y="318" w="-1" h="-1" measuredW="258" measuredH="24" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>16</size>
+        <text>Bienvenido%20a%20SIGEC%20-%20Fecha%20del%20dia</text>
+      </controlProperties>
+    </control>
+    <control controlID="25" controlTypeID="com.balsamiq.mockups::DataGrid" x="329" y="374" w="765" h="183" measuredW="639" measuredH="186" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <hLines>false</hLines>
+        <rowHeight>33</rowHeight>
+        <text>Nombre%20%5Ev%2C%20Edad%20%5Ev%2C%20Cita%20del%20dia%20%5Ev%2C%20Utima%20Cita%20%5Ev%2C%20Seguro%20%5Ev%2C%20%20Estado%20%5Ev%2C%20Opciones%0AJuan%20Perez%2C%2034%2C%209%3A00%20am%2C%2012/08/2013%2010%3A00%20am%2C%20Universal%2C%20Activa%2C%20%2C%0AMartha%20Contreras%2C%2050%2C%209%3A30%20am%2C%201/10/2013%202%3A00%20pm%2C%20Palic%2C%20Activa%2C%20%2C%0AAntonio%20Guzman%2C%2023%2C%2010%3A00%20am%2C%2015/02/2013%205%3A00%20pm%2C%20Humano%2C%20Activa%2C%20%2C%0ACarlos%20Caraballo%2C%2042%2C%2010%3A30%20am%2C%2024/06/2012%207%3A00%20am%2C%20Privado%2C%20Activa%2C%20%2C%0ACleotilda%20Lopez%2C%2064%2C11%3A00%20am%2C%2008/09/2013%2010%3A30%20am%2C%20Universal%2C%20Activa%2C%20%2C%0A%7B8L%2C%203C%2C%205L%2C%206L%2C%204L%2C%203L%2C3L%7D</text>
+        <verticalScrollbar>true</verticalScrollbar>
+        <vLines>true</vLines>
+      </controlProperties>
+    </control>
+    <control controlID="26" controlTypeID="com.balsamiq.mockups::Label" x="336" y="351" w="75" h="-1" measuredW="75" measuredH="21" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Citas%20del%20dia</text>
+      </controlProperties>
+    </control>
+    <control controlID="27" controlTypeID="com.balsamiq.mockups::Canvas" x="329" y="347" w="765" h="27" measuredW="100" measuredH="70" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15374745</color>
+      </controlProperties>
+    </control>
+    <control controlID="28" controlTypeID="com.balsamiq.mockups::TextInput" x="846" y="318" w="217" h="-1" measuredW="56" measuredH="27" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <color>15374745</color>
+        <text>Buscar</text>
+      </controlProperties>
+    </control>
+    <control controlID="29" controlTypeID="com.balsamiq.mockups::Icon" x="1070" y="319" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10027008</color>
+        <icon>SearchIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="30" controlTypeID="com.balsamiq.mockups::Button" x="734" y="318" w="-1" h="-1" measuredW="106" measuredH="27" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10470904</color>
+        <href>Crear%20Cita%26bm%3BCrear%20Cita.bmml%26bm%3BCrear%20Cita.bmml%26bm%3BCrear%20Cita.bmml</href>
+        <icon>CircledPlusIcon%7Cxsmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22563%2C314%2C669%2C341%22%20href%3D%22Crear%2520Cita.bmml%22%20alt%3D%22Crear%20Cita%22%20id%3D%2230%22/%3E</map>
+        <menuIcon>false</menuIcon>
+        <text>Nueva%20Cita</text>
+      </controlProperties>
+    </control>
+    <control controlID="32" controlTypeID="com.balsamiq.mockups::Icon" x="1010" y="401" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <href>Editar%20Cita%26bm%3BEditar%20Cita.bmml%26bm%3BEditar%20Cita.bmml%26bm%3BEditar%20Cita.bmml</href>
+        <icon>FileIcon%7Cxsmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22839%2C397%2C855%2C413%22%20href%3D%22Editar%2520Cita.bmml%22%20alt%3D%22Editar%20Cita%22%20id%3D%2232%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="33" controlTypeID="com.balsamiq.mockups::Icon" x="1033" y="401" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13369344</color>
+        <href>Mensaje%20Eliminar%20Cita%26bm%3BMensaje%20Eliminar%20Cita.bmml%26bm%3BMensaje%20Eliminar%20Cita.bmml%26bm%3BMensaje%20Eliminar%20Cita.bmml</href>
+        <icon>Trash2Icon%7Cxsmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22862%2C397%2C878%2C413%22%20href%3D%22Mensaje%2520Eliminar%2520Cita.bmml%22%20alt%3D%22Mensaje%20Eliminar%20Cita%22%20id%3D%2233%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="34" controlTypeID="com.balsamiq.mockups::Icon" x="1010" y="432" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Editar%20Cita%26bm%3BEditar%20Cita.bmml%26bm%3BEditar%20Cita.bmml%26bm%3BEditar%20Cita.bmml</href>
+        <icon>FileIcon%7Cxsmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22839%2C428%2C855%2C444%22%20href%3D%22Editar%2520Cita.bmml%22%20alt%3D%22Editar%20Cita%22%20id%3D%2234%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Icon" x="1033" y="432" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13369344</color>
+        <href>Mensaje%20Eliminar%20Cita%26bm%3BMensaje%20Eliminar%20Cita.bmml%26bm%3BMensaje%20Eliminar%20Cita.bmml%26bm%3BMensaje%20Eliminar%20Cita.bmml</href>
+        <icon>Trash2Icon%7Cxsmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22862%2C428%2C878%2C444%22%20href%3D%22Mensaje%2520Eliminar%2520Cita.bmml%22%20alt%3D%22Mensaje%20Eliminar%20Cita%22%20id%3D%2235%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Icon" x="1010" y="467" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Editar%20Cita%26bm%3BEditar%20Cita.bmml%26bm%3BEditar%20Cita.bmml%26bm%3BEditar%20Cita.bmml</href>
+        <icon>FileIcon%7Cxsmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22839%2C463%2C855%2C479%22%20href%3D%22Editar%2520Cita.bmml%22%20alt%3D%22Editar%20Cita%22%20id%3D%2236%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Icon" x="1033" y="467" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13369344</color>
+        <href>Mensaje%20Eliminar%20Cita%26bm%3BMensaje%20Eliminar%20Cita.bmml%26bm%3BMensaje%20Eliminar%20Cita.bmml%26bm%3BMensaje%20Eliminar%20Cita.bmml</href>
+        <icon>Trash2Icon%7Cxsmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22862%2C463%2C878%2C479%22%20href%3D%22Mensaje%2520Eliminar%2520Cita.bmml%22%20alt%3D%22Mensaje%20Eliminar%20Cita%22%20id%3D%2237%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Icon" x="1010" y="501" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Editar%20Cita%26bm%3BEditar%20Cita.bmml%26bm%3BEditar%20Cita.bmml%26bm%3BEditar%20Cita.bmml</href>
+        <icon>FileIcon%7Cxsmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22839%2C497%2C855%2C513%22%20href%3D%22Editar%2520Cita.bmml%22%20alt%3D%22Editar%20Cita%22%20id%3D%2238%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="39" controlTypeID="com.balsamiq.mockups::Icon" x="1033" y="501" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13369344</color>
+        <href>Mensaje%20Eliminar%20Cita%26bm%3BMensaje%20Eliminar%20Cita.bmml%26bm%3BMensaje%20Eliminar%20Cita.bmml%26bm%3BMensaje%20Eliminar%20Cita.bmml</href>
+        <icon>Trash2Icon%7Cxsmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22862%2C497%2C878%2C513%22%20href%3D%22Mensaje%2520Eliminar%2520Cita.bmml%22%20alt%3D%22Mensaje%20Eliminar%20Cita%22%20id%3D%2239%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="40" controlTypeID="com.balsamiq.mockups::Icon" x="1010" y="532" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Editar%20Cita%26bm%3BEditar%20Cita.bmml%26bm%3BEditar%20Cita.bmml%26bm%3BEditar%20Cita.bmml</href>
+        <icon>FileIcon%7Cxsmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22839%2C528%2C855%2C544%22%20href%3D%22Editar%2520Cita.bmml%22%20alt%3D%22Editar%20Cita%22%20id%3D%2240%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="41" controlTypeID="com.balsamiq.mockups::Icon" x="1033" y="532" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13369344</color>
+        <href>Mensaje%20Eliminar%20Cita%26bm%3BMensaje%20Eliminar%20Cita.bmml%26bm%3BMensaje%20Eliminar%20Cita.bmml%26bm%3BMensaje%20Eliminar%20Cita.bmml</href>
+        <icon>Trash2Icon%7Cxsmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22862%2C528%2C878%2C544%22%20href%3D%22Mensaje%2520Eliminar%2520Cita.bmml%22%20alt%3D%22Mensaje%20Eliminar%20Cita%22%20id%3D%2241%22/%3E</map>
+      </controlProperties>
+    </control>
+    <control controlID="52" controlTypeID="com.balsamiq.mockups::MenuBar" x="311" y="205" w="800" h="21" measuredW="662" measuredH="29" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <hrefs>Inicio%26bm%3BInicio.bmml%26bm%3BInicio.bmml%26bm%3BInicio.bmml%2CPacientes%26bm%3BPacientes.bmml%26bm%3BPacientes.bmml%26bm%3BPacientes.bmml%2CReportes%26bm%3BReportes.bmml%26bm%3BReportes.bmml%26bm%3BReportes.bmml%2CAdministracion%26bm%3BAdministracion.bmml%26bm%3BAdministracion.bmml%26bm%3BAdministracion.bmml%2CPagos%26bm%3BPagos.bmml%26bm%3BPagos.bmml%26bm%3BPagos.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22158%2C207%2C295%2C220%22%20href%3D%22Inicio.bmml%22%20alt%3D%22Inicio%22%20id%3D%2252%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22304%2C207%2C419%2C220%22%20href%3D%22Pacientes.bmml%22%20alt%3D%22Pacientes%22%20id%3D%2252%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22428%2C207%2C540%2C220%22%20href%3D%22Reportes.bmml%22%20alt%3D%22Reportes%22%20id%3D%2252%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22549%2C207%2C691%2C220%22%20href%3D%22Administracion.bmml%22%20alt%3D%22Administracion%22%20id%3D%2252%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22700%2C207%2C793%2C220%22%20href%3D%22Pagos.bmml%22%20alt%3D%22Pagos%22%20id%3D%2252%22/%3E%0A</map>
+        <selectedIndex>0</selectedIndex>
+        <text>%09%09Inicio%2C%20%09Pacientes%2C%20%09Reportes%2C%20%09Administraci%F3n%2C%20%09Pagos</text>
+      </controlProperties>
+    </control>
+    <control controlID="53" controlTypeID="com.balsamiq.mockups::Canvas" x="312" y="274" w="799" h="25" measuredW="100" measuredH="70" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15374745</color>
+      </controlProperties>
+    </control>
+    <control controlID="54" controlTypeID="com.balsamiq.mockups::Label" x="385" y="274" w="-1" h="-1" measuredW="43" measuredH="26" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <size>18</size>
+        <text>Inicio</text>
+      </controlProperties>
+    </control>
+    <control controlID="55" controlTypeID="com.balsamiq.mockups::Icon" x="355" y="274" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>6684672</color>
+        <icon>HomeIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="56" controlTypeID="__group__" x="976" y="104" w="114" h="24" measuredW="114" measuredH="24" zOrder="28" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Icon" x="0" y="0" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="0" locked="false" isInGroup="56">
+          <controlProperties>
+            <href>Usuarios%26bm%3BUsuarios.bmml%26bm%3BUsuarios.bmml%26bm%3BUsuarios.bmml</href>
+            <icon>ContactIcon%7Csmall</icon>
+            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22805%2C100%2C829%2C124%22%20href%3D%22Usuarios.bmml%22%20alt%3D%22Usuarios%22%20id%3D%220%22/%3E</map>
+          </controlProperties>
+        </control>
+        <control controlID="1" controlTypeID="com.balsamiq.mockups::Icon" x="31" y="0" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="1" locked="false" isInGroup="56">
+          <controlProperties>
+            <icon>GearIcon%7Csmall</icon>
+          </controlProperties>
+        </control>
+        <control controlID="2" controlTypeID="com.balsamiq.mockups::Icon" x="90" y="0" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="2" locked="false" isInGroup="56">
+          <controlProperties>
+            <href>Salir%26bm%3BSalir.bmml%26bm%3BSalir.bmml%26bm%3BSalir.bmml</href>
+            <icon>CircledXIcon%7Csmall</icon>
+            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22895%2C100%2C919%2C124%22%20href%3D%22Salir.bmml%22%20alt%3D%22Salir%22%20id%3D%222%22/%3E</map>
+          </controlProperties>
+        </control>
+        <control controlID="3" controlTypeID="com.balsamiq.mockups::HelpButton" x="63" y="4" w="-1" h="-1" measuredW="18" measuredH="18" zOrder="3" locked="false" isInGroup="56">
+          <controlProperties>
+            <href>Ayuda%26bm%3BAyuda.bmml%26bm%3BAyuda.bmml%26bm%3BAyuda.bmml</href>
+            <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22868%2C104%2C886%2C122%22%20href%3D%22Ayuda.bmml%22%20alt%3D%22Ayuda%22%20id%3D%223%22/%3E</map>
+          </controlProperties>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::Arrow" x="234" y="125" w="-1" h="-1" measuredW="150" measuredH="100" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="58" controlTypeID="com.balsamiq.mockups::Arrow" x="1078" y="116" w="72" h="33" measuredW="150" measuredH="100" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="59" controlTypeID="com.balsamiq.mockups::Arrow" x="732" y="274" w="60" h="47" measuredW="150" measuredH="100" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="60" controlTypeID="com.balsamiq.mockups::Arrow" x="965" y="258" w="45" h="70" measuredW="150" measuredH="100" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="61" controlTypeID="com.balsamiq.mockups::Arrow" x="234" y="374" w="98" h="82" measuredW="150" measuredH="100" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text/>
+      </controlProperties>
+    </control>
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::StickyNote" x="171" y="78" w="75" h="86" measuredW="109" measuredH="123" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Barra%20de%20Menu%20de%20Sigec</text>
+      </controlProperties>
+    </control>
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::StickyNote" x="179" y="336" w="75" h="73" measuredW="109" measuredH="123" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Citas%20del%20dia</text>
+      </controlProperties>
+    </control>
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::StickyNote" x="642" y="232" w="105" h="67" measuredW="109" measuredH="123" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Boton%20Crear%20Nueva%20Cita</text>
+      </controlProperties>
+    </control>
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::StickyNote" x="871" y="232" w="105" h="67" measuredW="109" measuredH="123" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Buscar%20cita%20por%20paciente</text>
+      </controlProperties>
+    </control>
+    <control controlID="67" controlTypeID="com.balsamiq.mockups::StickyNote" x="1135" y="128" w="105" h="119" measuredW="109" measuredH="123" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Botones%20deUsuario%2C%20Opciones%2C%20Ayuda%20y%20Salir</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

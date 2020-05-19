@@ -1,0 +1,30 @@
+﻿<div class="row vert-center">
+    <div class="col-md-4">
+        <h2>Klasslista</h2>
+    </div>
+    <div class="col-md-8">
+        <div class="alert alert-{{msg.type}} alert-dismissible" ng-show="msg">
+            <strong>{{msg.strong}}</strong> {{msg.text}}
+            <button type="button" class="close" aria-label="Close" ng-click="msg = null">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    </div>
+</div>
+<hr />
+<table class="table list-table">
+    <tr class="table-header">
+        <td>Förnamn</td>
+        <td>Efternamn</td>
+        <td>E-post</td>
+        <td>Telefon</td>
+        <td>Klass</td>
+    </tr>
+    <tr class="table-row" ng-repeat="student in students">
+        <td>{{student.fname}}</td>
+        <td>{{student.lname}}</td>
+        <td>{{student.email}}</td>
+        <td>{{student.phone}}</td>
+        <td>{{student.group}}</td>
+    </tr>
+</table>

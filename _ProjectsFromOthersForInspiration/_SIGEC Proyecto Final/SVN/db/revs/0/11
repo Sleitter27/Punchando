@@ -1,0 +1,197 @@
+PLAIN
+K 8
+App_Data
+V 19
+dir 5-2.0.r5/411104
+K 10
+App_Readme
+V 20
+dir x-7.0.r7/4680408
+K 9
+App_Start
+V 18
+dir 7-2.0.r8/27624
+K 11
+Code52.i18n
+V 21
+dir 13-7.0.r7/4682185
+K 7
+Content
+V 18
+dir j-2.0.r8/28670
+K 11
+Controllers
+V 19
+dir 3x-2.0.r8/29245
+K 7
+Filters
+V 21
+dir 43-2.0.r6/1108664
+K 11
+Global.asax
+V 22
+file 47-2.0.r2/9048755
+K 14
+Global.asax.cs
+V 22
+file 49-2.0.r2/9048953
+K 6
+Images
+V 21
+dir 4b-2.0.r2/9053268
+K 6
+Models
+V 21
+dir 53-2.0.r2/9053691
+K 10
+Properties
+V 21
+dir 57-2.0.r2/9054115
+K 9
+Resources
+V 18
+dir 7-5.0.r8/30338
+K 12
+SIGEC.csproj
+V 22
+file 5b-2.0.r7/4687212
+K 17
+SIGEC.csproj.user
+V 22
+file 5d-2.0.r2/9054465
+K 7
+Scripts
+V 21
+dir 5f-2.0.r7/4797372
+K 5
+Views
+V 18
+dir 6d-2.0.r10/873
+K 16
+Web.Debug.config
+V 22
+file 7j-2.0.r2/9064804
+K 18
+Web.Release.config
+V 22
+file 7l-2.0.r2/9065010
+K 10
+Web.config
+V 21
+file 7n-2.0.r5/414063
+K 3
+bin
+V 19
+dir 7p-2.0.r8/35533
+K 11
+favicon.ico
+V 22
+file ab-2.0.r2/9079899
+K 15
+packages.config
+V 22
+file ay-2.0.r7/4809599
+END
+ENDREP
+PLAIN
+K 18
+svn:global-ignores
+V 15
+Web.config
+obj
+
+K 10
+svn:ignore
+V 11
+Web.config
+
+END
+ENDREP
+id: 3-2.0.r11/1083
+type: dir
+pred: 3-2.0.r10/2052
+count: 8
+text: 11 0 975 0 c6a08cf72ddf7bdc8e6ce99326b01293
+props: 11 988 82 0 dce7fc6828812bc8a9d8637b07b0645e
+cpath: /trunk/SIGEC/SIGEC
+copyroot: 0 /
+
+PLAIN
+K 18
+GlobalizationSIGEC
+V 20
+dir 2-7.0.r7/4679954
+K 5
+SIGEC
+V 18
+dir 3-2.0.r11/1083
+K 11
+SIGEC.Tests
+V 19
+dir b0-2.0.r8/48422
+K 9
+SIGEC.sln
+V 22
+file bw-2.0.r2/9088924
+K 13
+SIGEC.v11.suo
+V 21
+file by-2.0.r5/427344
+K 8
+packages
+V 21
+dir c0-2.0.r7/4974551
+END
+ENDREP
+id: 1-2.0.r11/1556
+type: dir
+pred: 1-2.0.r10/2529
+count: 9
+text: 11 1285 258 0 f4613b4e3b344a6d5ee7d972758629b6
+cpath: /trunk/SIGEC
+copyroot: 0 /
+
+PLAIN
+K 5
+SIGEC
+V 18
+dir 1-2.0.r11/1556
+END
+ENDREP
+id: 3-1.0.r11/1754
+type: dir
+pred: 3-1.0.r10/2726
+count: 10
+text: 11 1703 38 0 60c97112920489ea3512beea13a65a60
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 8
+branches
+V 14
+dir 0-1.0.r1/0
+K 4
+tags
+V 15
+dir 2-1.0.r1/66
+K 5
+trunk
+V 18
+dir 3-1.0.r11/1754
+END
+ENDREP
+id: 0.0.r11/2009
+type: dir
+pred: 0.0.r10/2979
+count: 11
+text: 11 1895 101 0 9d6374b85dff016f4ef79f1d890be4c3
+cpath: /
+copyroot: 0 /
+
+3-2.0.t10-a modify-dir false true /trunk/SIGEC/SIGEC
+
+ad-2.0.r8/39685 delete-dir false false /trunk/SIGEC/SIGEC/obj
+
+
+2009 2142

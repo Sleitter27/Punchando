@@ -1,0 +1,41 @@
+- REGISTRAR CONSULTAS (LISTO)
+	-RECETAS E INDICACIONES(LISTO)
+- BUSQUEDA DE PACIENTES (LISTO)
+
+- OPCIONES DE AYUDA (LISTO)
+
+-VIEWS PARA EDITAR INFORMACION PROPIA DEL USUARIO (LISTO)** 
+
+- REPORTES
+
+- ADMINISTRACION
+	- MANTENIMIENTOS PARA ENTIDAD DOCTOR (LISTO)
+	- ELECCION REGLAS DE CONSULTAS (DOCTOR)(LISTO)
+	- ASIGNACION DE ROLES
+
+- ESTILOS
+	- CHOSSEN (LISTOS)
+	- DATA TABLES (LISTO)
+	- BARRA DE NAVEGACION
+	
+- DEFINIR VIEW ERRORES NO MANEJADOS
+	- ERRORES DEL SERVIDOR (LISTO)
+	- ERRORES DE BASE DE DATOS (LISTO)
+
+- DEFINIR VIEW ERRORES NOT FOUND (LISTO)
+
+- ESTABLECER FORMA DE PAGO EN PAGO DE CONSULTA. (LISTO)
+
+- RECUPERACION DE CONTRASEÑA (LISTO)
+	- HACER VIEW Y DEFINIR SMTP
+
+- PRESENTACION DE INTRODUCCION
+
+- AGREGAR RECOMENDACIONES Y BIBLIOGRAFIAS
+
+-*Establecer error de politica de contraseña en los registros de nuevos usuarios. (LISTO).
+-*Arreglar logica de almacenamiento de citas en historico, o cambio de estado. (pago de factura).(Desestimado el Historico).(LISTO)
+-*Crear control de seguridad para intentos fallidos de contraseña.(LISTO).
+-*Establecer view de editar datos personales.(LISTO).
+-*Establecer tooltips para las acciones presentes dentro de las tablas.(LISTO).
+-*Arreglar y globalizar strings y labels de la seccion del menu Autorizaciones. (LISTO).

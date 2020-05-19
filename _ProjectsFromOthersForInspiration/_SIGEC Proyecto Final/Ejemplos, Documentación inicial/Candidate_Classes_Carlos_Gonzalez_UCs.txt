@@ -1,0 +1,46 @@
+Clases:
+Receta
+*Pago
+Paciente
+Usuario Administrativo
+Doctor
+Secretaria
+Procedimiento
+Factura
+*Usuario
+Analisis
+Estudio
+Consultas (Citas, Visitas)
+Receta
+Aseguradora
+Medicamento
+
+From Jorge UC's
+Doctor
+Analisis
+Paciente
+Usuario Adm. **
+Secretaria
+Procedimiento
+Estudio
+Receta
+Medicamento
+Cita
+
+
+From Liriano UC's
+Aseguradora
+Doctor
+Cita
+Estudio
+Paciente
+Procedimiento
+Analisis
+Secretaria
+Cita
+Estudio
+Medicamento
+Usuario Adm.
+
+
+

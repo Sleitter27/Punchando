@@ -1,0 +1,233 @@
+<mockup version="1.0" skin="wireframe" fontFace="Balsamiq Sans" measuredW="1111" measuredH="729" mockupW="800" mockupH="725">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::BrowserWindow" x="311" y="4" w="800" h="725" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <text>A%20Web%20Page%0Ahttp%3A//</text>
+        <verticalScrollbar>false</verticalScrollbar>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::Label" x="400" y="92" w="-1" h="-1" measuredW="88" measuredH="36" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10027008</color>
+        <size>28</size>
+        <text>SIGEC</text>
+        <textOrientation>right</textOrientation>
+      </controlProperties>
+    </control>
+    <control controlID="3" controlTypeID="com.balsamiq.mockups::Icon" x="341" y="92" w="-1" h="-1" measuredW="48" measuredH="48" zOrder="4" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10027008</color>
+        <icon>ImageIcon%7Clarge</icon>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::Label" x="400" y="122" w="-1" h="-1" measuredW="332" measuredH="21" zOrder="5" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Sistema%20de%20Gesti%F3n%20de%20Consultorios%20-%20Dr.%20Fredy%20Figueroa</text>
+      </controlProperties>
+    </control>
+    <control controlID="8" controlTypeID="com.balsamiq.mockups::Canvas" x="313" y="78" w="798" h="80" measuredW="100" measuredH="70" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15658734</color>
+      </controlProperties>
+    </control>
+    <control controlID="35" controlTypeID="com.balsamiq.mockups::Label" x="389" y="361" w="-1" h="-1" measuredW="93" measuredH="21" zOrder="6" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>ID%20Aseguradora</text>
+      </controlProperties>
+    </control>
+    <control controlID="36" controlTypeID="com.balsamiq.mockups::Label" x="436" y="392" w="-1" h="-1" measuredW="46" measuredH="21" zOrder="7" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Nombre</text>
+      </controlProperties>
+    </control>
+    <control controlID="37" controlTypeID="com.balsamiq.mockups::Label" x="374" y="524" w="-1" h="-1" measuredW="108" measuredH="21" zOrder="8" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Fecha%20de%20creaci%F3n</text>
+      </controlProperties>
+    </control>
+    <control controlID="38" controlTypeID="com.balsamiq.mockups::Label" x="706" y="524" w="-1" h="-1" measuredW="42" measuredH="21" zOrder="9" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Estado</text>
+      </controlProperties>
+    </control>
+    <control controlID="42" controlTypeID="com.balsamiq.mockups::TextInput" x="488" y="358" w="-1" h="-1" measuredW="43" measuredH="24" zOrder="10" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>disabled</state>
+        <text>A006</text>
+      </controlProperties>
+    </control>
+    <control controlID="43" controlTypeID="com.balsamiq.mockups::TextInput" x="488" y="389" w="285" h="-1" measuredW="121" measuredH="24" zOrder="11" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>ARS%20Salud%20Segura</text>
+      </controlProperties>
+    </control>
+    <control controlID="45" controlTypeID="com.balsamiq.mockups::TextInput" x="488" y="522" w="104" h="-1" measuredW="78" measuredH="24" zOrder="12" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>disabled</state>
+        <text>30-10-2013</text>
+      </controlProperties>
+    </control>
+    <control controlID="48" controlTypeID="com.balsamiq.mockups::Label" x="427" y="459" w="-1" h="-1" measuredW="55" measuredH="21" zOrder="13" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Direcci%F3n</text>
+      </controlProperties>
+    </control>
+    <control controlID="49" controlTypeID="com.balsamiq.mockups::TextInput" x="488" y="456" w="457" h="-1" measuredW="149" measuredH="24" zOrder="14" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Calle%20Fulano%20de%20tal%20%2345</text>
+      </controlProperties>
+    </control>
+    <control controlID="56" controlTypeID="com.balsamiq.mockups::Label" x="454" y="426" w="-1" h="-1" measuredW="28" measuredH="21" zOrder="15" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>RNC</text>
+      </controlProperties>
+    </control>
+    <control controlID="57" controlTypeID="com.balsamiq.mockups::TextInput" x="488" y="423" w="113" h="-1" measuredW="82" measuredH="24" zOrder="16" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>0113452231</text>
+      </controlProperties>
+    </control>
+    <control controlID="60" controlTypeID="com.balsamiq.mockups::Label" x="441" y="492" w="-1" h="-1" measuredW="41" measuredH="21" zOrder="17" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Sector</text>
+      </controlProperties>
+    </control>
+    <control controlID="61" controlTypeID="com.balsamiq.mockups::TextInput" x="488" y="489" w="193" h="-1" measuredW="57" measuredH="24" zOrder="18" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Gazcue</text>
+      </controlProperties>
+    </control>
+    <control controlID="62" controlTypeID="com.balsamiq.mockups::Label" x="694" y="492" w="-1" h="-1" measuredW="54" measuredH="21" zOrder="19" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Provincia</text>
+      </controlProperties>
+    </control>
+    <control controlID="63" controlTypeID="com.balsamiq.mockups::TextInput" x="753" y="489" w="192" h="-1" measuredW="110" measuredH="24" zOrder="20" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Distrino%20Nacional</text>
+      </controlProperties>
+    </control>
+    <control controlID="64" controlTypeID="com.balsamiq.mockups::Canvas" x="312" y="274" w="799" h="25" measuredW="100" measuredH="70" zOrder="21" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>15374745</color>
+      </controlProperties>
+    </control>
+    <control controlID="65" controlTypeID="com.balsamiq.mockups::Label" x="385" y="274" w="-1" h="-1" measuredW="160" measuredH="26" zOrder="22" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>0</color>
+        <size>18</size>
+        <text>Nueva%20Aseguradora</text>
+      </controlProperties>
+    </control>
+    <control controlID="66" controlTypeID="com.balsamiq.mockups::Icon" x="355" y="274" w="-1" h="-1" measuredW="24" measuredH="24" zOrder="23" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>10898809</color>
+        <icon>HomeMobileIcon%7Csmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="67" controlTypeID="com.balsamiq.mockups::MenuBar" x="311" y="205" w="800" h="21" measuredW="662" measuredH="21" zOrder="24" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>square</borderStyle>
+        <hrefs>Inicio%26bm%3BInicio.bmml%26bm%3BInicio.bmml%26bm%3BInicio.bmml%2CPacientes%26bm%3BPacientes.bmml%26bm%3BPacientes.bmml%26bm%3BPacientes.bmml%2CReportes%26bm%3BReportes.bmml%26bm%3BReportes.bmml%26bm%3BReportes.bmml%2CAseguradoras%26bm%3BAseguradoras.bmml%26bm%3BAseguradoras.bmml%26bm%3BAseguradoras.bmml%2CPagos%26bm%3BPagos.bmml%26bm%3BPagos.bmml%26bm%3BPagos.bmml</hrefs>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%2218%2C205%2C155%2C218%22%20href%3D%22Inicio.bmml%22%20alt%3D%22Inicio%22%20id%3D%2267%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22164%2C205%2C279%2C218%22%20href%3D%22Pacientes.bmml%22%20alt%3D%22Pacientes%22%20id%3D%2267%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22288%2C205%2C400%2C218%22%20href%3D%22Reportes.bmml%22%20alt%3D%22Reportes%22%20id%3D%2267%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22409%2C205%2C551%2C218%22%20href%3D%22Aseguradoras.bmml%22%20alt%3D%22Aseguradoras%22%20id%3D%2267%22/%3E%0A%3Carea%20shape%3D%22rect%22%20coords%3D%22560%2C205%2C653%2C218%22%20href%3D%22Pagos.bmml%22%20alt%3D%22Pagos%22%20id%3D%2267%22/%3E%0A</map>
+        <selectedIndex>-1</selectedIndex>
+        <text>%09%09Inicio%2C%20%09Pacientes%2C%20%09Reportes%2C%20%09Administraci%F3n%2C%20%09Pagos</text>
+      </controlProperties>
+    </control>
+    <control controlID="68" controlTypeID="com.balsamiq.mockups::FieldSet" x="351" y="336" w="720" h="344" measuredW="200" measuredH="170" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>16777215</color>
+        <text>Crear%20Aseguradora</text>
+      </controlProperties>
+    </control>
+    <control controlID="69" controlTypeID="com.balsamiq.mockups::Button" x="822" y="687" w="-1" h="-1" measuredW="89" measuredH="24" zOrder="25" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Mensaje%20Medicamento%20Creado%26bm%3BMensaje%20Medicamento%20Creado.bmml%26bm%3BMensaje%20Medicamento%20Creado.bmml%26bm%3BMensaje%20Medicamento%20Creado.bmml</href>
+        <icon>SaveIcon%7Cxsmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22511%2C683%2C600%2C707%22%20href%3D%22Mensaje%2520Medicamento%2520Creado.bmml%22%20alt%3D%22Mensaje%20Medicamento%20Creado%22%20id%3D%2269%22/%3E</map>
+        <text>Guardar</text>
+      </controlProperties>
+    </control>
+    <control controlID="70" controlTypeID="com.balsamiq.mockups::Button" x="933" y="687" w="-1" h="-1" measuredW="95" measuredH="24" zOrder="26" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Aseguradoras%26bm%3BAseguradoras.bmml%26bm%3BAseguradoras.bmml%26bm%3BAseguradoras.bmml</href>
+        <icon>JumpBackIcon%7Cxsmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22622%2C683%2C717%2C707%22%20href%3D%22Aseguradoras.bmml%22%20alt%3D%22Aseguradoras%22%20id%3D%2270%22/%3E</map>
+        <text>Cancelar</text>
+      </controlProperties>
+    </control>
+    <control controlID="71" controlTypeID="com.balsamiq.mockups::ComboBox" x="755" y="522" w="84" h="-1" measuredW="66" measuredH="24" zOrder="27" locked="false" isInGroup="-1">
+      <controlProperties>
+        <state>closed</state>
+        <text>Activo%0AInactivo</text>
+      </controlProperties>
+    </control>
+    <control controlID="73" controlTypeID="com.balsamiq.mockups::Link" x="552" y="553" w="-1" h="-1" measuredW="49" measuredH="19" zOrder="28" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Agregar</text>
+      </controlProperties>
+    </control>
+    <control controlID="74" controlTypeID="com.balsamiq.mockups::DataGrid" x="488" y="578" w="457" h="77" measuredW="297" measuredH="78" zOrder="29" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Numero%2C%20Tipo%2C%20Obs%2C%20Opciones%2C%20%0A809-876-1234%2C%20Oficina%2C%20Principal%2C%20%2C%0A809-876-4321%2C%20Fax%2C%20Principal%2C%20%2C%0A%7B10L%2C%205L%2C%206C%7D</text>
+      </controlProperties>
+    </control>
+    <control controlID="75" controlTypeID="com.balsamiq.mockups::Label" x="488" y="552" w="-1" h="-1" measuredW="59" measuredH="21" zOrder="30" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Tel%E9fonos%3A</text>
+      </controlProperties>
+    </control>
+    <control controlID="76" controlTypeID="com.balsamiq.mockups::Icon" x="881" y="601" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="31" locked="false" isInGroup="-1">
+      <controlProperties>
+        <borderStyle>none</borderStyle>
+        <icon>FileIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="77" controlTypeID="com.balsamiq.mockups::Icon" x="904" y="601" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="32" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13369344</color>
+        <icon>Trash2Icon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="78" controlTypeID="com.balsamiq.mockups::Icon" x="881" y="632" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="33" locked="false" isInGroup="-1">
+      <controlProperties>
+        <icon>FileIcon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="79" controlTypeID="com.balsamiq.mockups::Icon" x="904" y="632" w="-1" h="-1" measuredW="16" measuredH="16" zOrder="34" locked="false" isInGroup="-1">
+      <controlProperties>
+        <color>13369344</color>
+        <icon>Trash2Icon%7Cxsmall</icon>
+      </controlProperties>
+    </control>
+    <control controlID="80" controlTypeID="com.balsamiq.mockups::Canvas" x="311" y="77" w="800" h="652" measuredW="100" measuredH="70" zOrder="35" locked="false" isInGroup="-1">
+      <controlProperties>
+        <backgroundAlpha>0.5</backgroundAlpha>
+        <borderStyle>none</borderStyle>
+        <color>3355443</color>
+      </controlProperties>
+    </control>
+    <control controlID="81" controlTypeID="com.balsamiq.mockups::TitleWindow" x="558" y="314" w="306" h="179" measuredW="450" measuredH="400" zOrder="36" locked="false" isInGroup="-1">
+      <controlProperties>
+        <dragger>false</dragger>
+        <minimize>false</minimize>
+        <text>Mensaje</text>
+        <topheight>26</topheight>
+      </controlProperties>
+    </control>
+    <control controlID="82" controlTypeID="com.balsamiq.mockups::Label" x="617" y="374" w="-1" h="-1" measuredW="188" measuredH="21" zOrder="37" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Datos%20guardados%20exitosamente.</text>
+      </controlProperties>
+    </control>
+    <control controlID="83" controlTypeID="com.balsamiq.mockups::Button" x="666" y="415" w="90" h="24" measuredW="88" measuredH="24" zOrder="38" locked="false" isInGroup="-1">
+      <controlProperties>
+        <href>Crear%20Aseguradora%26bm%3BCrear%20Aseguradora.bmml%26bm%3BCrear%20Aseguradora.bmml%26bm%3BCrear%20Aseguradora.bmml</href>
+        <icon>CheckMarkIcon%7Cxsmall</icon>
+        <map>%3Carea%20shape%3D%22rect%22%20coords%3D%22355%2C411%2C445%2C435%22%20href%3D%22Crear%2520Aseguradora.bmml%22%20alt%3D%22Crear%20Aseguradora%22%20id%3D%2283%22/%3E</map>
+        <text>Aceptar</text>
+      </controlProperties>
+    </control>
+  </controls>
+</mockup>

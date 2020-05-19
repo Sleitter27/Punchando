@@ -1,0 +1,9 @@
+Correcciones basadas en el nombre del caso de uso:
+
+-Registrar o modificar paciente : no es un caso de uso, son 2. Como te dije anteriormente, evita mezclar los eventos, y describe cada interacción individual como un evento, registrar y actualizar no son la misma cosa.
+
+-Registrar análisis, estudio o procedimiento : lo mismo que enla anterior, no mezclar diferentes eventos en uno solo.
+
+Trata de correjir todos los eventos en los que se presenta dicho inconveniente y me avisas cuando termines. Guiate del ejemplo que te puse en la carpeta y busca material de apoyo en internet. te voy a dejar un link de dropbox de mi carpeta de análisis y diseño, espero que te pueda servir de algo.
+
+Recuerda que necesitamos esos eventos bien definidos para iniciar con el proyecto, si se te hace dificil, entonces trata de hacerme una descripción textual de los procesos que vamos a manejar de la manera mas detallada posible, y de ahí yo me encargaré de extraer los eventos y luego hacer el diagrama de casos de uso.
