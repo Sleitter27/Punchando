@@ -1,0 +1,450 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F506C671-8E7B-4B33-8950-C7BBE87E2BE3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>KIOCLLeaveMgt.My.MyApplication</StartupObject>
+    <RootNamespace>KIOCLLeaveMgt</RootNamespace>
+    <AssemblyName>KIOCLLeaveMgt</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>KIOCLLeaveMgt.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>KIOCLLeaveMgt.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.2000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CrystalReport1.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLeaveCancellation.Designer.vb">
+      <DependentUpon>FrmLeaveCancellation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLeaveCancellation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmMonthlyLeave.Designer.vb">
+      <DependentUpon>FrmMonthlyLeave.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmMonthlyLeave.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmYearlyLeave.Designer.vb">
+      <DependentUpon>FrmYearlyLeave.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmYearlyLeave.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmYearlyReport.Designer.vb">
+      <DependentUpon>FrmYearlyReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmYearlyReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDepartment.Designer.vb">
+      <DependentUpon>FrmDepartment.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDepartment.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmDesignation.Designer.vb">
+      <DependentUpon>FrmDesignation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmDesignation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEmployee.Designer.vb">
+      <DependentUpon>FrmEmployee.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEmployee.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEmployeeDetails.Designer.vb">
+      <DependentUpon>FrmEmployeeDetails.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEmployeeDetails.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmHolidays.Designer.vb">
+      <DependentUpon>FrmHolidays.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmHolidays.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLeaveApp.Designer.vb">
+      <DependentUpon>FrmLeaveApp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLeaveApp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLeaveApproval.Designer.vb">
+      <DependentUpon>FrmLeaveApproval.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLeaveApproval.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLeaveSheet.Designer.vb">
+      <DependentUpon>FrmLeaveSheet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLeaveSheet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLocation.Designer.vb">
+      <DependentUpon>FrmLocation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLocation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.Designer.vb">
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPowerCon.Designer.vb">
+      <DependentUpon>FrmPowerCon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPowerCon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPowerConMonthly.Designer.vb">
+      <DependentUpon>FrmPowerConMonthly.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPowerConMonthly.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmRatePerUnit.Designer.vb">
+      <DependentUpon>FrmRatePerUnit.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FrmRatePerUnit.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MDIMain.Designer.vb">
+      <DependentUpon>MDIMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MDIMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="MonthlyLeaveReport.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MonthlyLeaveReport.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="PowerConMonthly.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PowerConMonthly.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ReportYearly.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportYearly.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Splash.Designer.vb">
+      <DependentUpon>Splash.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splash.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YearlyLeave.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>YearlyLeave.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLeaveCancellation.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLeaveCancellation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmMonthlyLeave.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmMonthlyLeave.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmYearlyLeave.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmYearlyLeave.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmYearlyReport.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmYearlyReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDepartment.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmDepartment.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmDesignation.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmDesignation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEmployee.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmEmployee.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEmployeeDetails.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmEmployeeDetails.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmHolidays.resx">
+      <DependentUpon>FrmHolidays.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLeaveApp.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLeaveApp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLeaveApproval.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLeaveApproval.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLeaveSheet.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLeaveSheet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLocation.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLocation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmLogin.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPowerCon.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmPowerCon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmPowerConMonthly.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmPowerConMonthly.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmRatePerUnit.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmRatePerUnit.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MDIMain.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>MDIMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MonthlyLeaveReport.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>MonthlyLeaveReport.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PowerConMonthly.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PowerConMonthly.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportYearly.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>ReportYearly.vb</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splash.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Splash.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YearlyLeave.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>YearlyLeave.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{00000200-0000-0010-8000-00AA006D2EA4}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="AxMSHierarchicalFlexGridLib">
+      <Guid>{0ECD9B60-23AA-11D0-B351-00A0C9055D8E}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="MSDATASRC">
+      <Guid>{7C0FFAB0-CD84-11D0-949A-00A0C91110ED}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="MSHierarchicalFlexGridLib">
+      <Guid>{0ECD9B60-23AA-11D0-B351-00A0C9055D8E}</Guid>
+      <VersionMajor>6</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

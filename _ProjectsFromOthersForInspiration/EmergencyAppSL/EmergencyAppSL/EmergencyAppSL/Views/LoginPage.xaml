@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="EmergencyAppSL.Views.LoginPage"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:extensions="clr-namespace:EmergencyAppSL.Extensions;assembly=EmergencyAppSL"
+    xmlns:iOsSpecific="clr-namespace:Xamarin.Forms.PlatformConfiguration.iOSSpecific;assembly=Xamarin.Forms.Core"
+    xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
+    Title="Login"
+    iOsSpecific:Page.UseSafeArea="True"
+    prism:ViewModelLocator.AutowireViewModel="True">
+
+    <Grid Padding="20,10,20,10">
+
+        <Image
+            Grid.Row="0"
+            Margin="0,30,0,0"
+            Aspect="AspectFit"
+            HeightRequest="100"
+            HorizontalOptions="FillAndExpand"
+            Source="{extensions:ImageResource EmergencyAppSL.Resources.applogo.png}"
+            VerticalOptions="FillAndExpand"
+            WidthRequest="100" />
+
+        <Entry
+            Grid.Row="2"
+            Keyboard="Email"
+            Placeholder="Username/Email"
+            PlaceholderColor="Gray"
+            Visual="Material" />
+        <Entry
+            Grid.Row="3"
+            IsPassword="True"
+            Keyboard="Default"
+            Placeholder="Password"
+            PlaceholderColor="Gray"
+            Visual="Material" />
+
+        <Button
+            Grid.Row="4"
+            BackgroundColor="#e04a00"
+            Command="{Binding LoginCommand}"
+            FontSize="19"
+            HeightRequest="50"
+            Text="Login"
+            TextColor="White"
+            VerticalOptions="EndAndExpand" />
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+    </Grid>
+
+</ContentPage>

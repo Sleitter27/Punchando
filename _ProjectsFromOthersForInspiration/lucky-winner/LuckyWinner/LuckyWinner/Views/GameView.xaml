@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LuckyWinner.Views.GameView"
+             x:Name="Root">
+	<ContentView.Content>
+		<Grid BindingContext="{Binding Source={x:Reference Name=Root}, Path=ViewModel}">
+			<Grid.RowDefinitions>
+				 <RowDefinition Height="Auto" />
+				 <RowDefinition Height="Auto" />
+				 <RowDefinition Height="Auto" />
+				 <RowDefinition Height="Auto" />
+			</Grid.RowDefinitions>
+			<Grid Grid.Row="0"
+				  Padding="10,10,10,0">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="Auto" />
+					<ColumnDefinition Width="*" />
+				</Grid.ColumnDefinitions>
+				<Label Grid.Column="0"
+					   Text="Nombre:"
+					   HorizontalOptions="Start"
+					   VerticalTextAlignment="Center"
+					   />
+				<Entry x:Name="NewPlayerEntry"
+							 Grid.Column="1"
+							 HorizontalOptions="FillAndExpand"
+							 Text="{Binding Path=NewPlayerName}"
+							 />
+			</Grid>
+			
+			<StackLayout Grid.Row="1"
+						 BackgroundColor="Navy"
+						 Orientation="Horizontal"
+						 Padding="0,10,0,0">
+				<StackLayout.Resources>
+					<ResourceDictionary>
+						<Style TargetType="Label">
+							<Setter Property="TextColor" Value="{StaticResource PrimaryTextColor}" />
+							<Setter Property="FontSize" Value="{StaticResource PrimaryTextSize}" />
+						</Style>
+					</ResourceDictionary>
+				</StackLayout.Resources>
+				<Image HorizontalOptions="Start"
+					   Source="Prize.png"
+					   HeightRequest="25" WidthRequest="25" />
+				<Label HorizontalOptions="FillAndExpand"
+							 VerticalTextAlignment="Center"
+							 HeightRequest="40"
+							 Text="Participantes"
+						 />
+			</StackLayout>
+			<Grid Grid.Row="2">
+				<Grid Padding="10,5,0,0">
+					<ListView x:Name="PlayersSelector"
+							  ItemsSource="{Binding Path=Players}"
+							  SeparatorColor="Gray"
+							  IsRefreshing="{Binding Path=IsRefreshing}"
+							  SelectedItem="{Binding Path=Winner, Mode=TwoWay}">
+						<ListView.ItemTemplate>
+							<DataTemplate>
+								<ViewCell>
+									<ViewCell.ContextActions>
+										<ToolbarItem Command="{Binding DeleteCommand}" Text="Borrar" />
+									</ViewCell.ContextActions>
+									<Grid>
+										<StackLayout Orientation="Horizontal"
+																 HorizontalOptions="Start">
+											<Image IsVisible="{Binding Path=IsWinner}"
+												   Source="Prize.png"
+												   HeightRequest="25" WidthRequest="25" />
+
+											<Label Text="¡GANADOR!"
+												   IsVisible="{Binding Path=IsWinner}"
+												   TextColor="Red"
+												   FontAttributes="Bold"
+												   VerticalTextAlignment="Center"
+												   />
+										
+											<Label Text="{Binding Path=PlayerName}"
+												   VerticalTextAlignment="Center"
+												   />
+										</StackLayout>
+										<Button HorizontalOptions="End"
+												Command="{Binding Path=DeleteCommand}"
+												Text="x" />
+									</Grid>
+								</ViewCell>
+							</DataTemplate>
+						</ListView.ItemTemplate>
+					</ListView>
+				</Grid>
+			</Grid>
+			<Grid Padding="2" Grid.Row="3">
+				<Button BackgroundColor="{StaticResource PrimaryColor}"
+						TextColor="{StaticResource PrimaryTextColor}"
+						Command="{Binding Path=PlayCommand}"
+						HeightRequest="80"
+						Text="Sortear"
+						/>			
+			</Grid>
+		</Grid>
+	</ContentView.Content>
+</ContentView>
