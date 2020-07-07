@@ -15,7 +15,11 @@ namespace CommonTasks.Data
         /// </summary>
         /// <param name="source">Instancia del objeto del cual se obtendrán los datos.</param>
         /// <param name="target">Instancia del objeto que recibirá los datos.</param>
-        static void Transfer(object source, object target, List<string> toSkip = null)
+        static void Transfer(object source,
+                              object target,
+                              List<string> toSkip = null,
+                              bool copyNullSource = true,
+                              bool replaceNullDestination = true)
         {
             var sourceType = source.GetType(); //tipo de objeto de instancia fuente
             var targetType = target.GetType(); //tipo de objeto de instancia destino
@@ -41,16 +45,27 @@ namespace CommonTasks.Data
                 if (!property.CanRead)
                     continue;
 
+                // verificar si la propiedad fuente tiene valor null y se desea impedir la copia
+                // de valores null.
+                if (!copyNullSource && property.GetValue(source) == null)   
+                    continue;
+
+
                 // verificar si la propiedad no debe ser transferida.
                 if (toSkip != null)
                     if (toSkip.Contains(property.Name, StringComparer.OrdinalIgnoreCase))
                         continue;
 
                 var targetProperty = targetType.GetProperty(property.Name, BindingFlags.Public | BindingFlags.Instance);
+                
                 if (targetProperty != null
                         && targetProperty.CanWrite //se puede escribir en la propiedad de destino?
                         && targetProperty.PropertyType.IsAssignableFrom(property.PropertyType))
                 {
+                    // verificar si el valor de la propiedad destino es null y se desea impedir reemplazar null.
+                    if (!replaceNullDestination && targetProperty.GetValue(target) == null)  
+                        continue;
+
                     expressions.Add(
                         Expression.Assign( //expresión para la asignación de las propiedades de los objetos.
                             Expression.Property(targetVariable, targetProperty),
@@ -79,8 +94,13 @@ namespace CommonTasks.Data
         /// <param name="source">Instancia del objeto fuente de los datos.</param>
         /// <param name="targetObj">Instancia opcional del objeto recibidor de los datos</param>
         /// <returns></returns>
-        public static void Transfer<SourceType, TargetType>(this SourceType source, ref TargetType targetObj, string toSkip = null)
-            where TargetType : class, new()
+        public static void Transfer<SourceType, TargetType>(
+           this SourceType source,
+           ref TargetType targetObj,
+           string toSkip = null,
+           bool copyNullSource = true,
+           bool replaceNullDestination = true)
+           where TargetType : class, new()
             where SourceType : class
         {
             if (targetObj == null)
@@ -91,11 +111,11 @@ namespace CommonTasks.Data
             {
                 List<string> skipList = toSkip.Split(',').Where(s => !String.IsNullOrEmpty(s))
                     .Select(s => s.Trim()).ToList();
-                Transfer(source, targetObj, skipList);
+                Transfer(source, targetObj, skipList, copyNullSource, replaceNullDestination);
             }
             else
             {
-                Transfer(source, targetObj);
+                Transfer(source, targetObj, null, copyNullSource, replaceNullDestination);
             }
         }
 
